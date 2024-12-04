@@ -297,5 +297,17 @@ btn.addEventListener('click', () => {
 });
 
 
+let response = `## Books to Enhance Creativity:
+**On the Process of Creativity:**
+
+* **"Steal Like an Artist" by Austin Kleon:**  A playful and insightful guide to embracing inspiration and developing your own creative voice.  Focuses on the importance of observation, imitation, and remixing.
+* **"The Artist's Way" by Julia Cameron:** A 12-week guided journal program designed to unlock your creative potential and overcome blocks.  More self-help focused but very effective for many.
+* **"Big Magic: Creative Living Beyond Fear" by Elizabeth Gilbert:**  A warm and encouraging book that tackles the fear and self-doubt that can stifle creativity.
+* **"A Whack on the Side of the Head" by Roger von Oech:** A classic that explores lateral thinking and problem-solving techniques to spark new ideas.`
+
+console.log(response);
+
+let newResponse = response.split("*");
 
 
+console.log(newResponse);
