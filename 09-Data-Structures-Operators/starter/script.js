@@ -407,3 +407,19 @@ for (const [min, event] of gameEvents){
 
   console.log(`${half} Half ${min} min : ${event}`)
 }
+
+
+const airline = 'TAP Air Portugal';
+const name = "amey gawade";
+
+console.log(name[0]);
+console.log('amey gawade'[0]);
+console.log(airline.length);
+console.log(airline.indexOf('r'));
+console.log(airline.lastIndexOf('r'));
+
+const name1 = name[0].toUpperCase() + name.slice(1, 5) + name[5].toUpperCase() + name.slice(6);
+console.log(name1);
+
+
+console.log(name.trim());  // trim() removes the white spaces from the string from beggining or end only
