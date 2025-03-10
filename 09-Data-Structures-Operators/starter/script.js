@@ -422,4 +422,4 @@ const name1 = name[0].toUpperCase() + name.slice(1, 5) + name[5].toUpperCase() +
 console.log(name1);
 
 
-console.log(name.trim());  // trim() removes the white spaces from the string from beggining or end only
+console.log(name.trim());  // trim() removes the white spaces from the string from beggining or end only 
