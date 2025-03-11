@@ -423,3 +423,10 @@ console.log(name1);
 
 
 console.log(name.trim());  // trim() removes the white spaces from the string from beggining or end only 
+
+const plane = 'A320neo';
+console.log(plane.includes('A320'));
+console.log(plane.startsWith('A320'));
+console.log(plane.endsWith('neo'));
+
+console.log(airline.endsWith('gal'));
