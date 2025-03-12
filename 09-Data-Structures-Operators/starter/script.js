@@ -430,3 +430,27 @@ console.log(plane.startsWith('A320'));
 console.log(plane.endsWith('neo'));
 
 console.log(airline.endsWith('gal'));
+
+console.log("a+very+good+string".split('+').join(' '));
+
+const str = 'a very good string';
+[first, ...second] = str.split(' ');
+console.log(second);
+const newStr = [first.toUpperCase(), 'b is' , second].join(" ");
+console.log(newStr);
+
+const capitalize = (strg) => {
+  sen = strg.split(' ');
+  const final = [];
+  for (const word of sen){
+    // final.push(word[0].toUpperCase() + word.slice(1));
+    final.push(word.replace(word[0], word[0].toUpperCase()))
+  }
+
+  
+
+  console.log(final.join(' '))
+}
+
+capitalize('amey and gawade')
+capitalize("hii here is Your jarvis")
