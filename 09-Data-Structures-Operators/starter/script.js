@@ -446,11 +446,22 @@ const capitalize = (strg) => {
     // final.push(word[0].toUpperCase() + word.slice(1));
     final.push(word.replace(word[0], word[0].toUpperCase()))
   }
-
-  
-
   console.log(final.join(' '))
 }
 
 capitalize('amey and gawade')
 capitalize("hii here is Your jarvis")
+
+// padding
+const mess = "Hii amey";
+console.log(mess.padStart('25','+'));
+console.log(mess.padEnd('25','-')); 
+
+const credit = function(number){
+  const str = number + '';       //this converts to string
+  const last = str.slice(-4);
+  return last.padStart(str.length ,'*');
+};
+
+console.log(credit('1234567890'));
+console.log(credit(987654321));
