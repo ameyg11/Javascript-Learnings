@@ -465,3 +465,14 @@ const credit = function(number){
 
 console.log(credit('1234567890'));
 console.log(credit(987654321));
+
+const challenge = function(ans){
+  const str1 = ans.split('_');
+  const ans1 = str1[0].toLowerCase() + str1.slice(1).map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join('');
+  return ans1;
+}
+
+console.log(challenge('some_variable'));
+console.log(challenge('first_name'));
+console.log(challenge('calculate_age')); 
+console.log(challenge('someVariable'));
